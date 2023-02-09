@@ -1,0 +1,28 @@
+
+
+.content h2 {
+  text-align: center;
+}
+
+.cards-how-to {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cardboard {
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid rgb(227, 225, 225);
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 15%);
+  text-align: center;
+}
+
+.cardboard img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
